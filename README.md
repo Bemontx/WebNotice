@@ -1,4 +1,4 @@
-# MUNDO AL DIA con Django y Faker
+# MUNDO AL DIA con Django
 
 ![Imagen django](https://img.channelpartner.es/wp-content/uploads/2022/05/14082803/27888_28.jpg.webp)
 
