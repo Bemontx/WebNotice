@@ -1,0 +1,90 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticias</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+    
+    <header>
+        <h1>Mundo al Día</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion-politica">Política</a></li>
+                <li><a href="#seccion-economia">Economía</a></li>
+                <li><a href="#seccion-deportes">Deportes</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="seccion-politica">
+        <h2>Política</h2>
+        <img src="https://www.elespectador.com/resizer/r0Xs350jN3bXuYjkjZiG2T3962Y=/920x613/filters:quality(60):format(jpeg)/www.elespectador.com/resizer/FJ2ZuvrzVHmOcC_f5XRY-QoXgxU=/arc-anglerfish-arc2-prod-elespectador/public/P4IUBXCMIFD6HBWNBVZL3XXR5E.jpg" alt="Salomo Kalmanovitz">
+        <article>
+            <h3>“Ser judío no es ser el defensor a rajatabla de todo lo que haga Israel”: Salomón Kalmanovitz</h3>
+            <p>Usted siempre ha defendido la existencia de una patria para los judíos en coexistencia con una nación palestina y en ese sentido, en octubre pasado, condenó el ataque del grupo terrorista Hamás contra Israel, que dejó 1.400 muertos y 240 secuestrados, pero ahora dedicó otra columna en El Espectador a manifestar que no puede defender la respuesta militar israelí porque ha causado más de 31.000 muertos, entre ellos miles de niños y mujeres y ancianos. ¿Por qué el pronunciamiento, a pesar de su ascendencia judía?
+
+                Porque me parece que las acciones bélicas de Israel no están dirigidas quirúrgicamente —como lo proponía alguno de sus dirigentes— contra el grupo Hamás, que fue el que causó 1.400 muertes de civiles israelíes inermes. Fue un ataque bárbaro y atroz, que le da a Israel el derecho a combatir para tratar de terminar la amenaza que representa este grupo terrorista para la seguridad del país y su población. Pero lo que no me parece adecuado es que Israel bombardee indiscriminadamente los asentamientos palestinos, que los tenga asediados en Gaza, que obligue a moverse de un lugar a otro a más de un millón de personas y que las mantenga sometidas con restricciones en la llegada de alimento y agua potable. Es una reacción desproporcionada frente a la provocación de Hamás, que sale ganando con esta reacción tan violenta, incluso desde el punto de vista geopolítico, porque pareciera darle patente de corso al grupo terrorista para seguir atentando contra el Estado de Israel.
+                
+                Pero, poniéndome en el punto de vista de Israel, le pregunto ¿cómo debió reaccionar entonces, militarmente hablando?
+                
+                Pues Israel tiene un servicio de inteligencia muy, muy desarrollado. Ha debido focalizarse en Hamás, atacarlo donde estuviera, encontrarlo donde esté y tomar acción directamente contra el grupo. Para eso es Israel, que tiene muy buenos investigadores y soldados expertos en operaciones de ese tipo. Pero la reacción ha sido masiva y desproporcionada. Como menciono en la columna, no es la Ley del Talión, de uno por uno, sino uno por 25. Entonces me parece que no es correcto, no es moralmente aceptable y que Israel debiera concentrarse en combatir a Hamás con todas las fuerzas, controlando la violencia que requiera para ello y no atentar contra toda la población de una nación que ya lleva 31.000 muertos y 75.000 heridos.
+                
+                Del lado crítico de Israel están quienes dicen que a raíz de la desproporción de esos ataques hay un riesgo de genocidio del pueblo palestino. ¿Se puede hablar en esos términos?
+                
+                No sabría decirle, porque genocidio implica una estrategia de eliminación de toda la población palestina y no creo que Israel esté en ese propósito, sobre todo porque los judíos tenemos esa experiencia tan espantosa de que fuimos víctimas de un genocidio masivo por parte de los nazis durante la Segunda Guerra Mundial. Nosotros no podemos repetir ese tipo de accionar de parte del Estado judío.
+                
+                </p>
+            <small>Fecha de publicación: 17 Marzo 2024 {{ fecha_actual }}</small>
+        </article>
+    </section>
+    
+    <section id="seccion-economia">
+        <h2>Economía</h2>
+        <article>
+            <h3>¿Cómo se explica la resistencia de la economía rusa?</h3>
+            <img src="https://www.elespectador.com/resizer/6Ug6mlZf7aKSrHwaC8wl0M97fBs=/920x613/filters:quality(60):format(jpeg)/www.elespectador.com/resizer/1VkLWK0otuJ5EKrpJ-g1h4delGY=/arc-anglerfish-arc2-prod-elespectador/public/22YDSSDRRZ3JRKSAPWBQVMTIGA.jpg" alt="manifestantes-rusos">
+            <p>Esta pregunta atormenta a los expertos occidentales. Tras la aplicación de las sanciones, las más duras jamás impuestas a un país tan grande, la mayoría de los responsables políticos y economistas predijeron el rápido colapso financiero de Rusia, seguido del caos de su industria y, por último, la lenta e inevitable asfixia del sector energético, principal proveedor de ingresos por exportaciones e impuestos de la Rusia de Vladimir Putin.</p>
+            <small>Fecha de publicación: 17 Marzo 2024 {{ fecha_actual }}</small>
+        </article>
+    </section>
+    
+    <section id="seccion-deportes">
+        <h2>Deportes</h2>
+        <img src="https://www.elespectador.com/resizer/6h7VE-FkIIXc1oKSX6lyBmpHBoY=/920x613/filters:quality(60):format(jpeg)/www.elespectador.com/resizer/3MQngHDfmQroTHOFnm3bvJJYQXs=/arc-anglerfish-arc2-prod-elespectador/public/5WVYPZT2LJEURC24QKUN6IPH5Y.jpg" alt="Dayro Moreno">
+        <article>
+            <h3>Dayro Moreno: de Chicoral para la historia del fútbol colombiano</h3>
+            <p>El 16 de marzo de 2024, será una fecha que Dayro Moreno nunca olvidará. Ese sábado, en la fecha número 12 de la Liga BetPlay, anotó su gol 225 y escribió su nombre en letras de oro en la historia del fútbol profesional colombiano. Con 38 años, el nacido en Chicoral cumplió lo que se había prometido: convertirse en el máximo artillero de la liga local, un sueño que había tenido desde que era niño.</p>
+            <small>Fecha de publicación: 17 Marzo 2024 {{ fecha_actual }}</small>
+        </article>
+    </section>
+
+    <section id="comentarios">
+        <h3>Comentarios</h3>
+        <div id="formulario-comentario">
+            <h4>Deja un comentario</h4>
+            <form id="comentario-form" method="post" action="{% url 'guardar_comentario' %}">
+                {% csrf_token %}
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="contenido">Comentario:</label><br>
+                <textarea id="contenido" name="contenido" rows="4" cols="50" required></textarea><br>
+                <button type="submit">Publicar comentario</button>
+            </form>
+        </div>
+        <div id="lista-comentarios">
+            {% for comentario in comentarios %}
+                <p>{{ comentario.nombre }} dijo: {{ comentario.contenido }}</p>
+            {% endfor %}
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 Noticiero @Jeisson Cardozo</p>
+    </footer>
+</html>
